@@ -1,0 +1,54 @@
+<resources>
+
+
+    /////Activities strings
+    <string name="action_income_only">Income Transactions</string>
+    <string name="action_expense_only">Expense Transactins</string>
+    <string name="action_all">All Transactions</string>
+    //Preference
+    <string name="pref_pre_cat_summary">Expense Manager setup information </string>
+    <string name="pref_cat_title">Settings</string>
+    <string name="pref_pwd_key">password</string>
+    <string name="pref_pwd_summary">on/off</string>
+    <string name="pref_pwd_def">off</string>
+    <string name="pref_pwd_title">Setup Password</string>
+
+
+    <string name="pref_lang_key">Language</string>
+    <string name="pref_lang_def">English</string>
+    <string name="pref_lang_summary">Language list</string>
+    <string name="pref_title">Select Lanuage</string>
+
+    <string name="pref_cal_key">Calendar</string>
+    <string name="pref_cal_def">Gregorian</string>
+    <string name="pref_cal_summary">Calendar list</string>
+    <string name="pref_ca_title">Select Calendar</string>
+
+
+    ////////////// end of preference
+    //Manifest String values
+    <string name="preference_label">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    // App Manager
+    <string name="app_name">Expense Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="title_activity_accounts">Accounts</string>
+    <string name="title_activity_income">"Income Category "</string>
+    <string name="title_activity_expense">"Expense Category "</string>
+    <string name="title_activity_transaction">Transactions Activity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="today_s">Today\'s</string>
+    <string name="yesterday_s">Yesterday\'s</string>
+    <string name="title_activity_activities">ActivitiesActivity</string>
+    <string name="action_help">Help</string>
+
+</resources>

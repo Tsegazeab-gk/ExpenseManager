@@ -1,0 +1,9 @@
+The Android platform includes many of the typical Java file I/O classes, including
+stream operations. To read string data from a file, use the openRawResource()
+method, as in the following example:
+InputStream iFile = getResources().openRawResource(R.raw.quizhelp);
+Now that you have an InputStream object, you can read the file, line-by-line or
+byte-by-byte, and create a string. There are a number of ways to do this. When you
+have a proper string with the help text, you simply retrieve the TextView control
+using the findViewById() method and set the text using the TextView control’s
+setText() method, as follows:

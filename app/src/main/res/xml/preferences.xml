@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="@string/pref_pre_cat_summary"
+        android:title="@string/pref_cat_title">
+
+        <CheckBoxPreference
+            android:defaultValue="@string/pref_pwd_def"
+            android:key="@string/pref_pwd_key"
+            android:summary="@string/pref_pwd_summary"
+            android:title="@string/pref_pwd_title" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_lang_def"
+            android:entries="@array/listLanguage"
+            android:entryValues="@array/listLanguage"
+            android:key="@string/pref_lang_key"
+            android:summary="@string/pref_lang_summary"
+            android:title="@string/pref_title" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_cal_def"
+            android:entries="@array/listCalendar"
+            android:entryValues="@array/listCalendar"
+            android:key="@string/pref_cal_key"
+            android:summary="@string/pref_cal_summary"
+            android:title="@string/pref_ca_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

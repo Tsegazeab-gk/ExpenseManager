@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tsegazeabg.com.expensemanager.ui.activities.ActivitiesActivity">
+
+
+    <item
+        android:id="@+id/action_income_only"
+        android:orderInCategory="100"
+        android:title="@string/action_income_only"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_expense_only"
+        android:orderInCategory="100"
+        android:title="@string/action_expense_only"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_all"
+        android:orderInCategory="100"
+        android:title="@string/action_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listCalendar">
+        <item>Ethiopian</item>
+        <item>Gregorian</item>
+    </string-array>
+
+    <string-array name="listLanguage">
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Tigrigna</item>
+        <item>Oromifaa</item>
+    </string-array>
+
+<string-array name="array_amount_type">
+    <item>income</item>
+    <item>Expense</item>
+</string-array>
+
+    <string-array name="array_account_type">
+        <item>Cash</item>
+        <item>Saving</item>
+        <item>All </item>
+    </string-array>
+
+</resources>
